@@ -18,7 +18,7 @@ from typing import List, Optional, Tuple, Dict, Any
 # ==========================================
 # CONFIGURATION & CONSTANTS
 # ==========================================
-DEFAULT_DESTINATION = "/run/media/deck/64C9-4929/models"
+DEFAULT_DESTINATION = "~/models/"
 DEFAULT_INDEX_FILE = "models_index.txt"
 MAX_CONCURRENT_DOWNLOADS = 3
 MAX_RETRIES = 3
