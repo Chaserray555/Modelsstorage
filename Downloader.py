@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 
-DEFAULT_DESTINATION = "/run/media/deck/64C9-4929/models"
+DEFAULT_DESTINATION = "~/models/"
 DEFAULT_INDEX_FILE = "models_index.txt"
 
 
@@ -32,7 +32,7 @@ def parse_model_id(model_id):
 
     repo_id, quant = model_id.rsplit("@", 1)
 
-    if "/" not in repo_id:
+    if "/" not in repo_id:=
         raise ValueError(
             f"Invalid repository: {repo_id}"
         )
